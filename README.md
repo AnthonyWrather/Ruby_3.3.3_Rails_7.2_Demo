@@ -33,5 +33,18 @@ Added pgadmin to the Dev Containers setup in .devcontainer/compose.yaml
 
   volumes:
     pgadmin-data:
-````
+```
+
+Run the following to enable you to publish to GitHub
+
+```bash
+  git config --global --add safe.directory /workspaces/blog_demo
+```
+
+Then run the following to add the home page etc.
+
+```bash
+  rails g controller pages home about
+```
+
 
