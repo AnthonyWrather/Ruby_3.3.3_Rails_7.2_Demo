@@ -16,7 +16,7 @@ rails new blog_demo --css bootstrap --database=postgresql --devcontainer
 
 ---
 
-[Intro to Ruby on Rails 7 Fullstack Tutorial | Rails for Beginners Part 1](https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=1&t=136s)
+[Intro to Ruby on Rails 7 Fullstack Tutorial](https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=1&t=136s)
 
 Added pgadmin to the Dev Containers setup in .devcontainer/compose.yaml
 
@@ -52,6 +52,7 @@ Then run the following to add the home page etc.
 <p> Lots of code editing lol </p>
 
 <p> Create the db table for the Posts and check the db is setup correctly. </p>
+
 ```bash
   rails g scaffold post title:string body:text
   rails db:migrate
@@ -88,6 +89,11 @@ Then run the following to add the home page etc.
   rails db:create
   rails db:migrate
 ```
+
+---
+
+[Intro to Devise in Rails 7](https://www.youtube.com/watch?v=m3uhldUGVes&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=2)
+
 
 
 
