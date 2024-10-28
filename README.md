@@ -5,6 +5,8 @@ This is a sample application to demonstrate how you can create an app and develo
 * Ruby version : 3.3.3
 * Rails version : 7.2.1.2
 
+---
+
 I use rbenv to install a local version of Ruby/Rails, once installed you can run the following
 command to generate the initial project.
 
@@ -12,8 +14,9 @@ command to generate the initial project.
 rails new blog_demo --css bootstrap --database=postgresql --devcontainer
 ```
 
-Intro to Ruby on Rails 7 Fullstack Tutorial | Rails for Beginners Part 1
-> https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=1&t=136s
+---
+
+[Intro to Ruby on Rails 7 Fullstack Tutorial | Rails for Beginners Part 1](https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=1&t=136s)
 
 Added pgadmin to the Dev Containers setup in .devcontainer/compose.yaml
 
@@ -46,5 +49,6 @@ Then run the following to add the home page etc.
 ```bash
   rails g controller pages home about
 ```
+<p> Lots of code editing lol </p>
 
-
+---
