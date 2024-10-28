@@ -51,4 +51,45 @@ Then run the following to add the home page etc.
 ```
 <p> Lots of code editing lol </p>
 
+<p> Create the db table for the Posts and check the db is setup correctly. </p>
+```bash
+  rails g scaffold post title:string body:text
+  rails db:migrate
+
+  rails c
+  blog-demo(dev)> Post.create(title: "Title 1", body: "Body 1")
+  blog-demo(dev)> Post.create(title: "Title 2", body: "Body 2")
+
+  blog-demo(dev)> @post = Post.find(1)
+  blog-demo(dev)> @post.title
+  => "Title 1"
+  blog-demo(dev)> @post.body
+  => "Body 1"
+
+  blog-demo(dev)> @post = Post.last(2)
+  blog-demo(dev)> @post
+  =>
+  [#<Post:0x00007f7e3c4f8988
+    id: 1,
+    title: "Title 1",
+    body: "Body 1",
+    created_at: "2024-10-28 20:51:18.790702000 +0000",
+    updated_at: "2024-10-28 20:51:18.790702000 +0000">,
+  #<Post:0x00007f7e3c4f8ac8
+    id: 2,
+    title: "Title 2",
+    body: "Body 2",
+    created_at: "2024-10-28 20:56:04.237105000 +0000",
+    updated_at: "2024-10-28 20:56:04.237105000 +0000">]
+
+  blog-demo(dev)> exit
+
+  rails db:drop
+  rails db:create
+  rails db:migrate
+```
+
+
+
+
 ---
