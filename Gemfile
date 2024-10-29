@@ -59,3 +59,4 @@ group :test do
 end
 
 gem "devise"
+gem "net-pop", github: "ruby/net-pop"

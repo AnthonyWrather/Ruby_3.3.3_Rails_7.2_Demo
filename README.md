@@ -164,6 +164,17 @@ rails g controller comments
 
 ---
 
+GitHub CI failure.
+
+Edit the Gemfile, add the folowing line and reinstall.
+
+```bash
+gem "net-pop", github: "ruby/net-pop"
+bundle install
+```
+
+---
+
 [Intro To Editing Comments With Stimulus In Rails 7](https://www.youtube.com/watch?v=A4cDwj0JYVo&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=4)
 
 
