@@ -56,6 +56,20 @@
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
+"@rails/actiontext@^7.2.102":
+  version "7.2.102"
+  resolved "https://registry.npmjs.org/@rails/actiontext/-/actiontext-7.2.102.tgz"
+  integrity sha512-aXOvhEz8zBI+m2r6Z9wY27Z48KNtlbh3Q0mmtE0g6sQneEbrS6ZuHGCa4tXAYG8VEAmupiGAmz0pwQiTI0TFUg==
+  dependencies:
+    "@rails/activestorage" ">= 7.2.0-alpha"
+
+"@rails/activestorage@>= 7.2.0-alpha":
+  version "7.2.102"
+  resolved "https://registry.npmjs.org/@rails/activestorage/-/activestorage-7.2.102.tgz"
+  integrity sha512-indJKK6bhETIfyYqUtbE3neUQCZ7Qm3lcPXSHqlVBYsJ3DnUKKejqvaIHHA5MrmqTKNbnnrX4zyeA1mrJgLk9Q==
+  dependencies:
+    spark-md5 "^3.0.1"
+
 "@sindresorhus/merge-streams@^2.1.0":
   version "2.3.0"
   resolved "https://registry.npmjs.org/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz"
@@ -581,6 +595,11 @@ source-map-js@^1.2.1, "source-map-js@>=0.6.2 <2.0.0":
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
+spark-md5@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/spark-md5/-/spark-md5-3.0.2.tgz"
+  integrity sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==
+
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
@@ -620,6 +639,11 @@ touch@^3.1.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/touch/-/touch-3.1.1.tgz"
   integrity sha512-r0eojU4bI8MnHr8c5bNo7lJDdI2qXlWWJk6a9EAFG7vbhTjElYhBVS3/miuE0uOuoLdb8Mc/rVfsmm6eo5o9GA==
+
+trix@^2.0.0, trix@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.npmjs.org/trix/-/trix-2.1.7.tgz"
+  integrity sha512-RyFmjLJfxP2nuAKqgVqJ40wk4qoYfDQtyi71q6ozkP+X4EOILe+j5ll5g/suvTyMx7BacGszNWzjnx9Vbj17sw==
 
 undefsafe@^2.0.5:
   version "2.0.5"

@@ -99,14 +99,20 @@ rails g migration add_views_to_posts views:integer
 rails db:migrate
 ```
 
-Add devise to Gemfile
+<p>Add devise to Gemfile</p>
+```bash
 bundle install
 rails g devise:install
+```
 
+```bash
 rails g devise User
 rails db:migrate
+```
 
-"Error with stale data."
+<p>"Error with stale data."</p>
+
+```bash
 rails g migration add_user_to_posts user:belongs_to
 rails c
 blog-demo(dev)> Post.destroy_all
@@ -114,7 +120,9 @@ blog-demo(dev)> exit
 rails g migration add_user_to_posts user:belongs_to
 rails db:migrate
 rails db:seed
+```
 
+```bash
 rails g migration add_name_to_user name:string
 rails db:migrate
 
@@ -133,6 +141,31 @@ blog-demo(dev)* User.all.each do |user|
 blog-demo(dev)*   user.views = 0
 blog-demo(dev)*   user.save
 blog-demo(dev)> end
+```
+
+---
+
+[Intro To Rich Comments In Rails 7](https://www.youtube.com/watch?v=ngL4B5rtaeQ&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=3)
+
+```bash
+rails g model comment post:belongs_to user:belongs_to
+rails db:migrate
+```
+
+```bash
+rails action_text:install
+bundle install
+rails db:migrate
+```
+
+```bash
+rails g controller comments
+```
+
+---
+
+[Intro To Editing Comments With Stimulus In Rails 7](https://www.youtube.com/watch?v=A4cDwj0JYVo&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=4)
+
 
 
 ---
