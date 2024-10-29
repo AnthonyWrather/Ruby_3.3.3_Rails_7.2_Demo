@@ -94,8 +94,9 @@ Then run the following to add the home page etc.
 
 [Intro to Devise in Rails 7](https://www.youtube.com/watch?v=m3uhldUGVes&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=2)
 
-
-
-
+```bash
+rails g migration add_views_to_posts views:integer
+rails db:migrate
+```
 
 ---
