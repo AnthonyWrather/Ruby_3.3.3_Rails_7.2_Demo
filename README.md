@@ -166,14 +166,16 @@ rails g controller comments
 
 GitHub CI failure.
 
-Edit the Gemfile, add the folowing line and reinstall.
+Edit the Gemfile, add the folowing line and reinstall the gem.
+This is a Ruby 3.3.3 issue.
 
 ```bash
 gem "net-pop", github: "ruby/net-pop"
+
 bundle install
 ```
-Also on a resart of the Dev Container you nneed to set the git permissions. Need to add this to the start script.
 
+Also on a resart of the Dev Container you nneed to set the git permissions. Need to add this to the start script.
 
 ```bash
 git config --global --add safe.directory /workspaces/blog_demo
