@@ -172,6 +172,12 @@ Edit the Gemfile, add the folowing line and reinstall.
 gem "net-pop", github: "ruby/net-pop"
 bundle install
 ```
+Also on a resart of the Dev Container you nneed to set the git permissions. Need to add this to the start script.
+
+
+```bash
+git config --global --add safe.directory /workspaces/blog_demo
+```
 
 ---
 
