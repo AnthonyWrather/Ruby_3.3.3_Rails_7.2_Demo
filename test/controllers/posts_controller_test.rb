@@ -5,7 +5,7 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
     @post = posts(:one)
   end
 
-    # TODO: FIXME: Fix this test!
+  # TODO: FIXME: Fix this test!
   # test "should get index" do
   #   get posts_url
   #   assert_response :success
