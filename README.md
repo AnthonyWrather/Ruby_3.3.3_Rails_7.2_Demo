@@ -14,6 +14,8 @@ command to generate the initial project.
 rails new blog_demo --css bootstrap --database=postgresql --devcontainer
 ```
 
+NOTE: I maybe also need to include -j esbuild
+
 ---
 
 [Intro to Ruby on Rails 7 Fullstack Tutorial](https://www.youtube.com/watch?v=TlgSp2XPCY4&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=1&t=136s)
@@ -185,8 +187,10 @@ git config --global --add safe.directory /workspaces/blog_demo
 
 [Intro To Editing Comments With Stimulus In Rails 7](https://www.youtube.com/watch?v=A4cDwj0JYVo&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=4)
 
+---
 
-
+[Add Comment Notifications To Your Blog](https://www.youtube.com/watch?v=c570-wnW_-A&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=5)
 
 
 ---
+
