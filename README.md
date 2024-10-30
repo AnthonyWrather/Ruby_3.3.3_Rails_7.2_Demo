@@ -191,6 +191,23 @@ git config --global --add safe.directory /workspaces/blog_demo
 
 [Add Comment Notifications To Your Blog](https://www.youtube.com/watch?v=c570-wnW_-A&list=PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb&index=5)
 
+The original code is based on an earlier version of Noticed.
+For V2 I will have to look at the documentation.
+
+[Send Notifications in Rails with Noticed gem v2](https://gorails.com/episodes/noticed-v2)
+
+There is multiple issues with this, I need to completly rework it.
+
+```bash
+bundle add noticed
+rails noticed:install:migrations
+rails db:migrate
+```
+
+```bash
+rails generate noticed:notifier Comment
+rails generate noticed:notifier CommentNotification
+```
 
 ---
 
