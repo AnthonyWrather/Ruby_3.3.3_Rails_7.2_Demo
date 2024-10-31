@@ -62,3 +62,5 @@ gem "devise"
 gem "net-pop", github: "ruby/net-pop"
 
 gem "noticed", "~> 2.4"
+
+gem "ransack", "~> 4.2"
