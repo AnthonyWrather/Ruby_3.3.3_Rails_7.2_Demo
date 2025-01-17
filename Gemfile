@@ -61,6 +61,6 @@ end
 gem "devise"
 gem "net-pop", github: "ruby/net-pop"
 
-gem "noticed", "~> 2.4"
+gem "noticed", "~> 2.6"
 
 gem "ransack", "~> 4.2"
